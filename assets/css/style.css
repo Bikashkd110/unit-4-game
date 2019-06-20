@@ -1,0 +1,79 @@
+body {
+    margin: 0 auto;
+    padding: 1em;
+    color: white;
+    font-family: 'Tillana', cursive;
+    font-size: 1.1em;
+    background-image:url(../images/crystalcollector.jpg) ;
+    background-size: contain;
+    background-size: 100%;
+    position: absolute;
+}
+
+hr{ 
+width: 80%;
+color: white;
+margin-left: 29%;
+
+}
+
+
+#rules {
+    max-width: 50%;
+    margin-left: 45%;
+    position: relative;
+}
+
+#game-data {
+    max-width: 50%;
+    margin: 2em auto;
+    position: relative;
+    left: 20%;
+}
+
+#crystal-container {
+    margin-right: 2px auto;
+    position: relative;
+    left: 36%;
+}
+
+
+
+
+#score-container {
+
+    margin: 2em auto;
+    position: relative;
+    max-width: 50%;
+    width: 200px;
+    height: 20px;
+    left: 5%;
+}
+
+
+.crystal-image {
+    width: 90px;
+    height: 90px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition:0.3s ease-in-out;
+}
+
+.crystals {
+    float: left;
+    margin:0 2em;
+    box-shadow: 31px 19px 6px -3px rgba(204, 239, 11, 0.3);
+    transition:0.3s ease-in-out;
+}
+
+#total-header {
+    margin-top:2em;
+    clear: both;
+}
+
+#total-score {
+
+    clear: both;
+    text-align: center;
+}
+
+

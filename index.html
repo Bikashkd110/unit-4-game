@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crystals Collector</title>
+  <link rel="reset"  href="asstes/css/reset.css">
+ <link rel="stylesheet" href="assets/css/style.css">
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  
+</head>
+
+<body>
+
+  
+    <div id="rules">
+        <p>You will be given a random number at the start of the game.</p>
+        <p> There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score</p>
+        <p> You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number. </p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p> Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+     <div id="game-data">
+         <div id="current-random-num"> Current Random Number </div>
+            <div id="wins-losses">
+                <p>Wins: <span id="wins"></span></p>
+                <p>Losses: <span id="losses"></span></p>
+            </div>
+        </div>
+
+        <div id="score-container">
+            <div id="total-header">Your total score is: </div>
+            <div id="total-score"><span id="counter-total"></span></div>
+        </div>
+
+        <hr>
+
+        <div id="crystal-container">
+            <div class="crystals">
+                <img src="assets/images/red.jpg" alt="Crystal" class="crystal-image " id="crystal-red" />
+            </div>
+            <div class="crystals">
+                <img src="assets/images/white.jpg" alt="Crystal" class="crystal-image" id="crystal-white" />
+            </div>
+            <div class="crystals">
+                <img src="assets/images/blue.jpg" alt="Crystal" class="crystal-image" id="crystal-blue" />
+            </div>
+            <div class="crystals">
+                <img src="assets/images/green.jpg" alt="Crystal" class="crystal-image" id="crystal-green" />
+            </div>
+        </div>
+        
+    
+  
+
+  
+
+    <script  src="assets/javascript/game.js"></script>
+
+
+
+
+</body>
+
+</html>
